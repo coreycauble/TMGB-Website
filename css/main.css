@@ -398,7 +398,7 @@ max-height: 600px !important;
 .inner-contact-content {
   position:relative;
   margin: 0 auto;
-  background: rgba(52, 52, 52, 0.75); #525252;
+  background: rgba(52, 52, 52, 0.75) #525252;
   text-align: center;
   z-index: 100;
   padding: 10px;
@@ -562,10 +562,10 @@ position: absolute;
 min-height: 180px;
 top: 0;
 z-index: 2;
-display: none
+display: none;
 }
 .cbp-qtrotator .cbp-qtcontent.current {
-display: block
+display: block;
 }
 .cbp-qtrotator blockquote {
 margin: 0;
@@ -578,8 +578,8 @@ color: #afafaf;
 border: 0px solid;
 }
 .cbp-qtrotator blockquote footer {
-font-size: .4em
-font-weight:lighter;
+font-size: .4em;
+font-weight: lighter;
 }
 .cbp-qtrotator blockquote footer:before {
 content: '― '
@@ -599,12 +599,70 @@ z-index: 1000
 .cbp-qtquote {
 
 }
+
+#portfolio {
+    background: #5A5A5A;
+
+    margin-bottom: 30px;
+}
+
+#publications {
+    background: #5A5A5A;
+    margin-bottom: 30px;
+}
+
+.publication-image {
+    padding-bottom: 30px;
+    text-align: center; 
+}
+
+.publication-image img {
+    width: 330px;
+    height: 400px;
+}
+
+#about {
+    background:  #5A5A5A;
+    margin-bottom: 30px;
+}
+
+.about-image {
+    padding-bottom: 30px;
+}
+
+.about-text {
+    color: #afafaf;
+    font-size: 19px;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#contact {
+
+    margin-bottom: 30px;
+}
+
+.jumbotron {
+    padding: 0px;
+}
+
+.section-title-header {
+    color: #9d9d9d;
+    line-height: 52px;
+    padding-top: 15px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 40px;
+}
+
 @media (min-width: 1200px) {
 
   .fix-portfolio .items li {
       width: 23%;
       margin: 1%;
-      hei ght: 330px;
       display:inline-table;
   }
 
@@ -615,7 +673,6 @@ z-index: 1000
   .fix-portfolio .items li {
       width: 48%;
       margin: 1%;
-      hei ght: 342px;
       display:inline-table;
   }
 
@@ -626,7 +683,6 @@ z-index: 1000
   .fix-portfolio .items li {
       width: 48%;
       margin: 1%;
-      hei ght: 300px;
       display:inline-table;
   }
   .rightme {
